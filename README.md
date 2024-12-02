@@ -5,5 +5,4 @@ created an api to connect the login page
 reviewed and testing
 
 connected the refreh logic api
-
-
+created the login and register endpoint
