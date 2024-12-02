@@ -4,7 +4,6 @@ from django.core.exceptions import ValidationError, ObjectDoesNotExist
 from users.models import User
 from comments.models import Comment
 
-
 class ReplyManager(models.Manager):
     """
     A Method to get a single post by id
