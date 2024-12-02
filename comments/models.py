@@ -5,7 +5,6 @@ from users.models import User
 from django.conf import settings
 from django.core.exceptions import ValidationError, ObjectDoesNotExist
 
-
 class CommentManager(models.Manager):
     """
     A Manager used in getting an object by id
