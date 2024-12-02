@@ -4,6 +4,7 @@ from django.core.exceptions import ValidationError
 
 class UserReplyPermission(BasePermission):
     
+  
     def has_object_permission(self, request, view, obj):
         if request.user.is_anonymous:
             return request.method in SAFE_METHODS
