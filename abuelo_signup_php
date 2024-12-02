@@ -1,0 +1,37 @@
+<?php
+session_start();
+
+?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+     <title>User Signup</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="form">
+        <h1>SIGNUP</h1>
+        <br><br>
+         <form action="include .\inc.signup.php" method="post">
+                <label>full Name</label>
+                <input type="fullname" name="fullname" required placeholder="fullname">
+                <!-- <br><br> -->
+                <label>Email</label>
+                <input type="email" name="email" required placeholder="felix@gmail.com">
+                <!-- <br><br> -->
+                <label>Password</label>
+                <input type="password" name="password" required>
+                <!-- <br><br> -->
+                <label>Repeat Password</label>
+                <input type="password" name="repeatpassword" required>
+                <!-- <br><br> -->
+                <input type="submit" value="Signup">
+         </form>
+    </div>
+
+
+</body>
+</html>
