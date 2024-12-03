@@ -5,7 +5,6 @@ from rest_framework.response import Response
 from auths.serializers.register import UserSerializer
 from rest_framework_simplejwt.tokens import RefreshToken
 
-
 class UserRegisterViewSet(viewsets.ModelViewSet):
     http_method_names = ['post']
     permission_classes = [AllowAny,]
